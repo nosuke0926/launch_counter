@@ -1,7 +1,5 @@
 library launch_counter;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:launch_counter/src/conditions.dart';
+export 'package:launch_counter/src/core.dart';
+export 'package:launch_counter/src/widgets.dart';
