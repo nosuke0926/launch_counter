@@ -49,20 +49,6 @@ When a dialog or page is displayed, please choose one of the following options u
 Otherwise, the dialog or page will be displayed again when the app is launched next time.
 Please check [this one](https://github.com/nosuke0926/launch_counter/tree/master/example) on Github for more details.
 
-<!-- ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-``` -->
-
 ## Contributions
 
 Feel free to contribute to this project.
