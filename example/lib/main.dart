@@ -2,9 +2,7 @@ import 'package:example/content.dart';
 import 'package:flutter/material.dart';
 import 'package:launch_counter/launch_counter.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -92,7 +90,7 @@ class HomePageState extends State<HomePage> {
                             child: const Text("Download"),
                             onPressed: () {
                               launchCounter
-                                  .callEvent(LaunchCounterEventType.ok);
+                                  .callEvent(LaunchCounterEventType.neverShow);
                               Navigator.pop(context);
                             },
                           ),

@@ -108,7 +108,4 @@ enum LaunchCounterEventType {
 
   /// When the never show again button has been pressed.
   neverShow,
-
-  /// When the ok button has been pressed.
-  ok,
 }

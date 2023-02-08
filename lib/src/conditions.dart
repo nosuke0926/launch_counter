@@ -196,8 +196,7 @@ class DoNotOpenAgainCondition extends DebuggableCondition {
 
   @override
   bool onEventOccurred(LaunchCounterEventType eventType) {
-    if (eventType == LaunchCounterEventType.ok ||
-        eventType == LaunchCounterEventType.neverShow) {
+    if (eventType == LaunchCounterEventType.neverShow) {
       doNotOpenAgain = true;
       return true;
     }

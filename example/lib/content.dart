@@ -40,27 +40,6 @@ class _ContentWidgetState extends State<ContentWidget> {
             for (DebuggableCondition condition in debuggableConditions)
               textCenter(condition.valuesAsString),
             textCenter('Are conditions met ? ${isConditionMet ? 'Yes' : 'No'}'),
-            // Padding(
-            //   padding: const EdgeInsets.only(top: 10),
-            //   child: ElevatedButton(
-            //     onPressed: () async {
-            //       await widget.launchCounter.showRateDialog(
-            //           context); // We launch the default Launch counter dialog.
-            //       refresh();
-            //     },
-            //     child: const Text('Launch "Launch counter" dialog'),
-            //   ),
-            // ),
-            // ElevatedButton(
-            //   onPressed: () async {
-            //     await widget.launchCounter.showStarRateDialog(context,
-            //         actionsBuilder: (_, stars) => starRateDialogActionsBuilder(
-            //             context,
-            //             stars)); // We launch the Launch counter dialog with stars.
-            //     refresh();
-            //   },
-            //   child: const Text('Launch "Launch counter" star dialog'),
-            // ),
             ElevatedButton(
               onPressed: () async {
                 await widget.launchCounter

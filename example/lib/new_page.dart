@@ -42,7 +42,8 @@ class _NewPageState extends State<NewPage> {
               ElevatedButton(
                 child: const Text("Download"),
                 onPressed: () {
-                  widget.launchCounter.callEvent(LaunchCounterEventType.ok);
+                  widget.launchCounter
+                      .callEvent(LaunchCounterEventType.neverShow);
                   Navigator.pop(context);
                 },
               ),
